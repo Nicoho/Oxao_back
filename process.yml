@@ -1,0 +1,9 @@
+apps:
+  - script   : './bin/start'
+    name     : '0219-oxao'
+    exec_mode: 'cluster'
+    instances: 1
+    env:
+        "NODE_ENV": "production"
+        "PORT": 6003
+    source_map_support: false
